@@ -19,7 +19,7 @@ input_ids, mask_ids, segment_ids = Data_loader.get_data_input()
 print(len(input_ids))
 inputs, masks, segments = input_ids[:n], mask_ids[:n], segment_ids[:n]
 #拆分训练集和测试集
-#gpt2中 masks和segments矩阵并没有用到 可删掉
+# masks和segments矩阵并没有用到 可删掉
 
 
 #gpt2配置
